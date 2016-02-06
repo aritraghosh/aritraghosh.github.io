@@ -19,12 +19,15 @@ As you can see, the change is **not** so drastic. Although the weight loss has b
 
 
 
-# What worked for me
+## What worked for me
 
 ____
 
 
 + Drink lukewarm lemon water with tea-spoon of honey in the early morning.
++ Drink hot/lukewarm water through the day and try to drink atleast 5-6 liters of water through the day.
++ Avoid sugary food and switch to having more vegetables and fruits which have lot of fibre. Eat more protein.
++ Exercise everyday for atleast 1/2-1 hour.
 
 
 

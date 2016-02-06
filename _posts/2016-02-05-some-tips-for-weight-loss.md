@@ -23,7 +23,6 @@ As you can see, the change is **not** so drastic. Although the weight loss has b
 
 ____
 
-
 + Drink *lukewarm* lemon water with tea-spoon of honey in the early morning.
 + Drink hot/lukewarm water through the day and try to drink atleast 4-5 liters of water through the day.
 + Avoid *sugary* food(of any kind including health drinks etc) and switch to having more vegetables and fruits which have lot of fibre. Eat more protein.
@@ -38,6 +37,7 @@ ____
 + Do not eat anything other than at meal times.
 + Take to eating  fruit instead of fruit juices.
 + Maintain a record of weight to have an idea of progress. Do not get swayed or bogged down by this but maintaining a record helps. Set achievable goals and ensure that you are able to fulfil them.
++ Avoid eating heavy meal at night. 
 
 
 Last but not the least, dont get too obsessed if you are not able to reduce weight fast. It takes time. I will keep adding more as and when I find something useful and helpful.

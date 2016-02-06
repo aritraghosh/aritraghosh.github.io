@@ -6,7 +6,7 @@ date: 2016-02-05
 
 After a long wait(4 years), I was able to muster courage and enthusiasm on something that has pestered me all the way from high school. This is in no way to say that I have succeeded but I have gone a long way from what it used to be. Life has gone a full circle. I was 67 kg when I joined and looked just bit healthier than average, things exacerbated over time and somehow from last semester, I took a resolution to work on being thin. Here, I write about some of the things that have helped me reduce weight. This is specific to me and some of the points are contentious. I am far from being fit and have taken only a step forward in the path of getting there.
 
-![Before]( https://aritraghosh.github.io/images/Aritra_old.jpg "Aritra")
+![Before](https://aritraghosh.github.io/images/Aritra_old.jpg =200x150 "Aritra")
 
 
 

@@ -9,7 +9,7 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 
 
 
-<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Drawing" style="float: left; width: 500px; height: 600px;"><img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Drawing" style="float: right; width: 500px; height: 600px;">
+<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Drawing" style="float: left; width: 500px; height: 600px;" /><img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Drawing" style="float: right; width: 500px; height: 600px;" />
 
 Aritra is continuing
 

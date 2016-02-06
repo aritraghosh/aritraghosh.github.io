@@ -12,7 +12,7 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 <img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Old me" style="align: left;width: 500px ;height: 600px;"/>
 <img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Now" style="align: right;width: 500px;  height: 600px;"/>
 </div>
-<div style="width:1100px; margin:0 auto;">
+<div style="width:1000px; margin:0 auto;">
 <div   align="left" >Previously </div>
 <div align="right"  >Now </div>
 </div>

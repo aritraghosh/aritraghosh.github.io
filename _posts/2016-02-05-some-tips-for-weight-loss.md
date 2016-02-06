@@ -13,8 +13,8 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 <img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Now" style="align: right;width: 500px;  height: 600px;"/>
 </div>
 <div style="width:1100px; margin:0 auto;">
-<div  style="text-align:center">Example images showing good </div>
-<div  style="text-align:center">Example images showing bad </div>
+<div  style="text-align:center">Previously </div>
+<div  style="text-align:center">Now </div>
 </div>
 As you can see, the change is **not** so drastic. Although the weight loss has been significant considerable(around 13 kg in period of 5 months), the change in physique has been less obvious.
 

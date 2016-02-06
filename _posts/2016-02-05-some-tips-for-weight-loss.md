@@ -11,12 +11,12 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 <div style="width:1100px; margin:0 auto;">
 <div align="left">
 <img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Old me" style="align: left;width: 500px ;height: 600px;"/>
-<div class="thecap" style="text-align:center">Example images showing good .</div>
+Example images showing good.
 </div>
 
 <div align="right">
 <img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Now" style="align: right;width: 500px;  height: 600px;"/>
-<div class="thecap" style="text-align:center">Example images showing good</div>
+Example images showing goo
 </div>
 </div>
 

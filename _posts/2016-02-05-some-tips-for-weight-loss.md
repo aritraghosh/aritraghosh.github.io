@@ -12,7 +12,10 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 <img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Old me" style="align: left; width: 500px; height: 600px;"/>
 <img src="https://aritraghosh.github.io/images/IMG_20160123_091910.jpg" alt="Now" style="align: right; width: 500px; height: 600px;" />
 
-As you can see, the change is **not** so drastic. 
+As you can see, the change is **not** so drastic. Although the weight loss has been significant considerable(around 13 kg in period of 5 months), the change in physique has been less obvious.
+
+
+# What worked for me
 
 
 

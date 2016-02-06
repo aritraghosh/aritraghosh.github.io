@@ -37,7 +37,7 @@ ____
 + Do not eat anything other than at meal times.
 + Take to eating  fruit instead of fruit juices.
 + Maintain a record of weight to have an idea of progress. Do not get swayed or bogged down by this but maintaining a record helps. Set achievable goals and ensure that you are able to fulfil them.
-+ Avoid eating heavy meal at night. 
++ Avoid eating a  heavy meal at night. 
 
 
 Last but not the least, dont get too obsessed if you are not able to reduce weight fast. It takes time. I will keep adding more as and when I find something useful and helpful.

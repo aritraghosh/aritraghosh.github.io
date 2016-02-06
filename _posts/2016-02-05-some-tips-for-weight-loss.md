@@ -17,7 +17,10 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 As you can see, the change is **not** so drastic. Although the weight loss has been significant considerable(around 13 kg in period of 5 months), the change in physique has been less obvious.
 
 
-
+<figure>
+    <img src='https://aritraghosh.github.io/images/IMG_20160123_091910.jpg' alt='missing' />
+    <figcaption>Caption goes here</figcaption>
+</figure>
 
 
 

@@ -8,6 +8,6 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 
 ![This was me before I began](https://aritraghosh.github.io/images/Aritra_old.jpg =100x100) ![Now](https://github.com/aritraghosh/aritraghosh.github.io/blob/master/images/IMG_20160123_091910.jpg =400x300 "Now")
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://aritraghosh.github.io/images/Aritra_old.jpg "Before I began")  |  ![](https://github.com/aritraghosh/aritraghosh.github.io/blob/master/images/IMG_20160123_091910.jpg)
+<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Drawing" style="width: 200px;"/>
+
+

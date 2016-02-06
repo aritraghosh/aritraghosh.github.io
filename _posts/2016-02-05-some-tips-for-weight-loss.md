@@ -9,7 +9,7 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 
 
 
-<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Drawing" style="width: 300px; height: 200px"/>
+<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Drawing" style="width: 500px; height: 300px"/>
 
 
 

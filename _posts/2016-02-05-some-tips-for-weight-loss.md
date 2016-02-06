@@ -24,5 +24,7 @@ As you can see, the change is **not** so drastic. Although the weight loss has b
 ____
 
 
++ Drink lukewarm lemon water with tea-spoon of honey in the early morning.
+
 
 

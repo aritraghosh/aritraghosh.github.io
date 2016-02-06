@@ -9,7 +9,7 @@ After a long wait(4 years), I was able to muster courage and enthusiasm on somet
 
 
 <div style="float:left;"> 
-<img alt="logo" src="https://aritraghosh.github.io/images/Aritra_old.jpg" style="width: 400px; height = 300px;" /><img alt="background" src="https://github.com/aritraghosh/aritraghosh.github.io/blob/master/images/IMG_20160123_091910.jpg" style="width: 400px; height = 300px;" /> 
+<img alt="logo" src="https://aritraghosh.github.io/images/Aritra_old.jpg" style="width: 200px; height = 150px;" /><img alt="background" src="https://github.com/aritraghosh/aritraghosh.github.io/blob/master/images/IMG_20160123_091910.jpg" style="width: 200px; height = 150px;" /> 
 </div>
 
 

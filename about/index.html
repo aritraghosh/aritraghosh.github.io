@@ -2,13 +2,88 @@
 layout: default
 title: Aritra Ghosh, Product Manager
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Aritra Ghosh!</h1>
-	<p>I'm a Senior Product Manager at Microsoft, focusing on improving Azure Kubernetes Service through better observability and troubleshooting. I previously worked at Sezzle and Oracle. 
-		I excel in fast-paced environments, adept at navigating uncertainty and understanding customer needs to drive product and business success. 
-		I'm known for getting things done efficiently and effectively, with a strong track record of delivering solutions that make a difference.
-	My hobbies include working out at the gym and playing squash </p>
-Interests: B2B SaaS, Developer tools, Enterprise Software.
-		
-	
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Career Progression</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .timeline-container {
+            position: relative;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background-color: #e5e7eb;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: #3B82F6;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-16 max-w-4xl">
+        <h1 class="text-5xl font-bold text-gray-800 mb-16 text-center">My Career Progression</h1>
+        
+        <div class="timeline-container relative pb-16">
+            <div class="timeline-line"></div>
+            
+            <!-- Microsoft -->
+            <div class="relative mb-16">
+                <div class="timeline-dot" style="top: 2rem;"></div>
+                <div class="ml-auto w-5/6 md:w-2/5 bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-800">Microsoft US</h2>
+                    <p class="text-gray-600 mb-2">Oct 2022-Present</p>
+                    <h3 class="text-xl text-gray-700 mb-2">Product Manager</h3>
+                    <p class="text-gray-600">Azure Kubernetes Service(AKS)</p>
+                </div>
+            </div>
+
+            <!-- Sezzle -->
+            <div class="relative mb-16">
+                <div class="timeline-dot" style="top: 2rem;"></div>
+                <div class="mr-auto w-5/6 md:w-2/5 bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-800">Sezzle</h2>
+                    <p class="text-gray-600 mb-2">Oct 2021 - Oct 2022</p>
+                    <h3 class="text-xl text-gray-700 mb-2">Senior PM, PM 2, PM Intern</h3>
+                    <p class="text-gray-600">Merchant</p>
+                </div>
+            </div>
+
+            <!-- Oracle US -->
+            <div class="relative mb-16">
+                <div class="timeline-dot" style="top: 2rem;"></div>
+                <div class="ml-auto w-5/6 md:w-2/5 bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-800">Oracle US</h2>
+                    <p class="text-gray-600 mb-2">Oct 2017 - Dec 2020</p>
+                    <h3 class="text-xl text-gray-700 mb-2">Senior Member of Technical Staff, Senior Applications Engineer</h3>
+                    <ul class="text-gray-600 list-disc ml-5">
+                        <li>Data Space and Transaction Team</li>
+                        <li>Fusion Release Engineering</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Oracle India -->
+            <div class="relative">
+                <div class="timeline-dot" style="top: 2rem;"></div>
+                <div class="mr-auto w-5/6 md:w-2/5 bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-800">Oracle India</h2>
+                    <p class="text-gray-600 mb-2">July 2016 - Sept 2017</p>
+                    <h3 class="text-xl text-gray-700 mb-2">Applications Engineer</h3>
+                    <p class="text-gray-600">Fusion Build and Release team</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div><!-- /.blurb -->

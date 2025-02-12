@@ -6,7 +6,7 @@
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
-  google_analytics: 477826664
+  google_analytics: G-L001SGM272
   ignore:
     - index.md
     - _config.yml

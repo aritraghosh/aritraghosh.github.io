@@ -3,23 +3,20 @@ layout: default
 title: Aritra Ghosh, Computer Science Student
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Aritra Ghosh!</h1>
+    <h1>Hi there, I'm Aritra Ghosh!</h1>
     <div>
-		<img src="../images/Aritra-Tennis.jpg" alt="Me at US Open circa 2021" style="align: left;width: 400px ;height: 600px;"/> 
-	</div>	
+        <img src="../images/Aritra-Tennis.jpg" alt="Me at US Open circa 2021" style="align: left;width: 400px ;height: 600px;"/> 
+    </div>    
 
-	<p>I'm a Senior Product Manager in the Azure Kubernetes Service(AKS) team Microsoft. I previously worked at Sezzle and Oracle. 
-		I excel in fast-paced environments, adept at navigating uncertainty and understanding customer needs to drive product and business success. 
-		I'm known for getting things done efficiently and effectively, with a strong track record of delivering impact at scale.
-	My hobbies include working out at the gym and playing squash </ p>
+    <p>I'm a Senior Product Manager in the Azure Kubernetes Service(AKS) team Microsoft. I previously worked at Sezzle and Oracle. 
+        I excel in fast-paced environments, adept at navigating uncertainty and understanding customer needs to drive product and business success. 
+        I'm known for getting things done efficiently and effectively, with a strong track record of delivering impact at scale.
+    My hobbies include working out at the gym and playing squash </ p>
 Interests: B2B SaaS, Developer tools, Enterprise Software.
 </div><!-- /.blurb -->
 
-<button id="theme-toggle">Toggle Dark Mode</button>
+<button id="theme-toggle" style="position: fixed; top: 10px; right: 10px; background: none; border: none; cursor: pointer;">
+    <img src="../images/dark-mode-icon.png" alt="Toggle Dark Mode" style="width: 30px; height: 30px;">
+</button>
 
-<script>
-    const toggleButton = document.getElementById('theme-toggle');
-    toggleButton.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-    });
-</script>
+<script src="js/theme-toggle.js"></script>

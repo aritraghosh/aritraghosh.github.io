@@ -4,7 +4,7 @@ title: "Netflix's Next Act"
 date: 2025-02-15
 ---
 
-I've always found Netflix fascinating as a company. From their radical [compensation strategy](https://jobs.netflix.com/work-life-philosophy) and infamous [Keeper test](https://jobs.netflix.com/culture) to their stellar [engineering culture](https://netflixtechblog.com/), there's a lot that intrigues me. Here's my somewhat scattered thoughts on where they could go next.
+I've always found Netflix fascinating as a company. From their radical [compensation strategy](https://jobs.netflix.com/work-life-philosophy) and infamous [Keeper test](https://jobs.netflix.com/culture) to their stellar [engineering culture](https://netflixtechblog.com/), there's a lot that intrigues me. These are my unstructured thoughts on what's next for them.
 
 ## Exploring New Revenue Streams
 Look, there are plenty of good reasons why I, as a customer, don't want to pay more for content (don't get me started on subscription fatigue and the explosion of subscription management startups). But from a business perspective, artificially capping revenue feels unusual.

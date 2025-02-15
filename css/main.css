@@ -1,6 +1,15 @@
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+    --link-color: #999;
+    --link-hover-color: #666;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -14,10 +23,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: var(--link-color);
 }
 a:hover {
     text-decoration: underline;
+    color: var(--link-hover-color);
 }
 h1 {
     font-size: 3em;
@@ -40,4 +50,12 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    --background-color: #333;
+    --text-color: #fff;
+    --link-color: #bbb;
+    --link-hover-color: #fff;
 }

@@ -38,3 +38,5 @@ metadata:
         element: "text"
         label: "Permalink"
         value: ""
+baseurl: ""
+url: "https://aritraghosh.me"

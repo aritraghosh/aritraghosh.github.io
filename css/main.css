@@ -197,6 +197,92 @@ ul.posts li {
     padding-left: 1.5rem;
 }
 
+/* Career Timeline styles */
+.career-timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.career-timeline h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.timeline-content {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    position: relative;
+}
+
+.timeline-content.left {
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.timeline-content.right {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.timeline-content h2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.timeline-content .date {
+    color: var(--link-color);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+}
+
+.timeline-content ul {
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+}
+
+.timeline-content ul li {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .timeline-content {
+        width: 85%;
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+    
+    .timeline-line {
+        left: 20px !important;
+    }
+    
+    .timeline-dot {
+        left: 20px !important;
+    }
+}
+
 /* Table styles */
 table {
     width: 100%;

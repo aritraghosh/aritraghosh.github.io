@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Aritra Ghosh, Product Manager</title>
+    <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
+    <link href="http://localhost:4000"/>
+    <updated>2025-02-16T12:12:31+05:30</updated>
+    <id>http://localhost:4000</id>
+    <author>
+        <name>Aritra Ghosh</name>
+        <email>aritrag94@gmail.com</email>
+    </author>
 
-	<title>Aritra Ghosh, Product Manager</title>
-	<link href="http://localhost:4000/blog/atom.xml" rel="self"/>
-	<link href="http://localhost:4000"/>
-	<updated>2025-02-16T11:57:45+05:30</updated>
-	<id>http://localhost:4000</id>
-	<author>
-		<name>Aritra Ghosh</name>
-		<email>aritrag94@gmail.com</email>
-	</author>
-
-	
-		<entry>
-			<title>Netflix's Next Act</title>
-			<link href="http://localhost:4000/blog/2025/02/15/netflix-next-act"/>
-			<updated>2025-02-15T00:00:00+05:30</updated>
-			<id>http://localhost:4000/blog/2025/02/15/netflix-next-act</id>
-			<content type="html">&lt;p&gt;I’ve always found Netflix fascinating as a company. From their radical &lt;a href=&quot;https://jobs.netflix.com/work-life-philosophy&quot;&gt;compensation strategy&lt;/a&gt; and infamous &lt;a href=&quot;https://jobs.netflix.com/culture&quot;&gt;Keeper test&lt;/a&gt; to their stellar &lt;a href=&quot;https://netflixtechblog.com/&quot;&gt;engineering culture&lt;/a&gt;, there’s a lot that intrigues me. These are my unstructured thoughts on what’s next for them.&lt;/p&gt;
+    
+    <entry>
+        <title>Netflix's Next Act</title>
+        <link href="http://localhost:4000/blog/2025/02/15/netflix-next-act"/>
+        <updated>2025-02-15T00:00:00+05:30</updated>
+        <id>http://localhost:4000/blog/2025/02/15/netflix-next-act</id>
+        <content type="html">&lt;p&gt;I’ve always found Netflix fascinating as a company. From their radical &lt;a href=&quot;https://jobs.netflix.com/work-life-philosophy&quot;&gt;compensation strategy&lt;/a&gt; and infamous &lt;a href=&quot;https://jobs.netflix.com/culture&quot;&gt;Keeper test&lt;/a&gt; to their stellar &lt;a href=&quot;https://netflixtechblog.com/&quot;&gt;engineering culture&lt;/a&gt;, there’s a lot that intrigues me. These are my unstructured thoughts on what’s next for them.&lt;/p&gt;
 
 &lt;h2 id=&quot;exploring-new-revenue-streams&quot;&gt;Exploring New Revenue Streams&lt;/h2&gt;
 &lt;p&gt;Look, there are plenty of good reasons why I, as a customer, don’t want to pay more for content (don’t get me started on subscription fatigue and the explosion of subscription management startups). But from a business perspective, artificially capping revenue feels unusual.&lt;/p&gt;
@@ -49,14 +46,14 @@
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
 &lt;p&gt;Netflix has always been a company that zagged when others zigged. While competitors rushed to build media empires through mergers and acquisitions, Netflix doubled down on original content. When others chased sports rights, Netflix built Squid Game. The streaming wars aren’t over - they’re evolving. And in this next phase, I’m betting on Netflix finding creative ways to expand beyond just being a video service into something more engaging, more social, and maybe even more profitable. But hey, what do I know? I’m just another person yelling into the void about what a $450B company should do.&lt;/p&gt;
 </content>
-		</entry>
-	
-		<entry>
-			<title>Some tips for Weight loss</title>
-			<link href="http://localhost:4000/blog/2016/02/05/some-tips-for-weight-loss"/>
-			<updated>2016-02-05T00:00:00+05:30</updated>
-			<id>http://localhost:4000/blog/2016/02/05/some-tips-for-weight-loss</id>
-			<content type="html">&lt;p&gt;After a long wait(4 years), I was able to muster courage and enthusiasm on something that has pestered me all the way from high school. This is in no way to say that I have succeeded but I have gone a long way from what it used to be. Life has gone a full circle. I was 67 kg when I joined and looked just bit healthier than average, things exacerbated over time and somehow from last semester, I took a resolution to work on getting thin. Here, I write about some of the things that have helped me reduce weight. This is specific to me and some of the points are contentious. I am far from being fit and have taken only a step forward in the path of getting there.&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>Some tips for Weight loss</title>
+        <link href="http://localhost:4000/blog/2016/02/05/some-tips-for-weight-loss"/>
+        <updated>2016-02-05T00:00:00+05:30</updated>
+        <id>http://localhost:4000/blog/2016/02/05/some-tips-for-weight-loss</id>
+        <content type="html">&lt;p&gt;After a long wait(4 years), I was able to muster courage and enthusiasm on something that has pestered me all the way from high school. This is in no way to say that I have succeeded but I have gone a long way from what it used to be. Life has gone a full circle. I was 67 kg when I joined and looked just bit healthier than average, things exacerbated over time and somehow from last semester, I took a resolution to work on getting thin. Here, I write about some of the things that have helped me reduce weight. This is specific to me and some of the points are contentious. I am far from being fit and have taken only a step forward in the path of getting there.&lt;/p&gt;
 
 &lt;div style=&quot;width:1100px; margin:0 auto;&quot;&gt;
 &lt;img src=&quot;https://aritraghosh.github.io/images/Aritra_old.jpg&quot; alt=&quot;Old me&quot; style=&quot;align: left;width: 400px ;height: 711px;&quot; /&gt;
@@ -90,9 +87,6 @@
 &lt;p&gt;Last but not the least, dont get too obsessed if you are not able to reduce weight fast. It takes time. I will keep adding more as and when I find something useful and helpful.&lt;/p&gt;
 
 </content>
-		</entry>
-	
-
-</feed>
-
+    </entry>
+    
 </feed>

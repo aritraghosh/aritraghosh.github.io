@@ -1,6 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
+        <title>Aritra Ghosh, Product Manager</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <script>
+            // Check for saved user preference, if any, on load of the website
+            window.onload = function() {
+                const darkMode = localStorage.getItem('darkMode');
+                if (darkMode === 'enabled') {
+                    document.documentElement.classList.add('dark-mode');
+                }
+            }
+
+            function toggleTheme() {
+                const root = document.documentElement;
+                root.classList.toggle('dark-mode');
+                
+                // Save user preference
+                if (root.classList.contains('dark-mode')) {
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    localStorage.setItem('darkMode', 'disabled');
+                }
+            }
+        </script>
+        <!-- Google Analytics tag if you have it -->
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L001SGM272');
+        </script>
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+                <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
+            </ul>
+        </nav>
+        <div class="container">
+        <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Career Progression</title>
@@ -26,6 +74,7 @@
             background-color: #3B82F6;
             border-radius: 50%;
         }
+
         [data-theme="dark"] .bg-gray-50 {
             background-color: #1a1a1a;
         }
@@ -56,7 +105,7 @@
 
         [data-theme="dark"] .timeline-dot {
             background-color: #bb86fc;
-        }
+        }       
     </style>
 </head>
 <body class="bg-gray-50">
@@ -115,4 +164,15 @@
         </div>
     </div>
 </body>
+
+        </div><!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:aritrag94@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/aritraghoshpm">linkedin</a></li>
+                <li><a href="https://github.com/aritraghosh">github</a></li>
+                <li><a href="https://medium.com/@aritrag94">medium</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>

@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <title>How to reach out to Aritra Ghosh</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-        <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <script>
             // Check for saved user preference, if any, on load of the website
             window.onload = function() {
@@ -26,29 +26,33 @@
             }
         </script>
         <!-- Google Analytics tag if you have it -->
-        {% if site.google_analytics %}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '{{ site.google_analytics }}');
+            gtag('config', 'G-L001SGM272');
         </script>
-        {% endif %}
+        
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
                 <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
             </ul>
         </nav>
         <div class="container">
-        {{ content }}
+        <div class="blurb">
+	<h1>Happy to help</h1>
+	<p> If you would like to reach out to me, please start with email. I prefer open, candid conversations. If you would like to schedule time with me, I am available on <a href="https://topmate.io/aritra_ghosh" target="_blank">Topmate</a> </p>
+</div><!-- /.blurb -->
+
         </div><!-- /.container -->
         <footer>
             <ul>

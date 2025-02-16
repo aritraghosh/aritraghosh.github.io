@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <title>Aritra Ghosh's Blog</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-        <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <script>
             // Check for saved user preference, if any, on load of the website
             window.onload = function() {
@@ -26,29 +26,43 @@
             }
         </script>
         <!-- Google Analytics tag if you have it -->
-        {% if site.google_analytics %}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '{{ site.google_analytics }}');
+            gtag('config', 'G-L001SGM272');
         </script>
-        {% endif %}
+        
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
                 <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
             </ul>
         </nav>
         <div class="container">
-        {{ content }}
+        	<h1>Aritra Ghosh's Blog</h1>
+	<p>I write <a href="https://medium.com/@aritrag94" target="_blank">technical articles on Medium</a>, 
+		<a href="https://contrarianconsensus.substack.com/" target="_blank">general topics on Substack</a>, 
+		and occasional rants here. These are my personal opinions and do not reflect my past, present, or future employers. 
+		Feel free to read and share feedback, but nothing more!
+	</p>
+	<ul class="posts">
+
+	  
+	    <li><span>15 Feb 2025</span> » <a href="/blog/2025/02/15/netflix-next-act" title="Netflix's Next Act">Netflix's Next Act</a></li>
+	  
+	    <li><span>05 Feb 2016</span> » <a href="/blog/2016/02/05/some-tips-for-weight-loss" title="Some tips for Weight loss">Some tips for Weight loss</a></li>
+	  
+	</ul>
+
         </div><!-- /.container -->
         <footer>
             <ul>

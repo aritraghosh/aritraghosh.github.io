@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Some tips for Weight loss</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <script>
+            // Check for saved user preference, if any, on load of the website
+            window.onload = function() {
+                const darkMode = localStorage.getItem('darkMode');
+                if (darkMode === 'enabled') {
+                    document.documentElement.classList.add('dark-mode');
+                }
+            }
+
+            function toggleTheme() {
+                const root = document.documentElement;
+                root.classList.toggle('dark-mode');
+                
+                // Save user preference
+                if (root.classList.contains('dark-mode')) {
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    localStorage.setItem('darkMode', 'disabled');
+                }
+            }
+        </script>
+        <!-- Google Analytics tag if you have it -->
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L001SGM272');
+        </script>
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+                <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
+            </ul>
+        </nav>
+        <div class="container">
+        <h1>Some tips for Weight loss</h1>
+<p class="meta">05 Feb 2016</p>
+
+<div class="post">
+  <p>After a long wait(4 years), I was able to muster courage and enthusiasm on something that has pestered me all the way from high school. This is in no way to say that I have succeeded but I have gone a long way from what it used to be. Life has gone a full circle. I was 67 kg when I joined and looked just bit healthier than average, things exacerbated over time and somehow from last semester, I took a resolution to work on getting thin. Here, I write about some of the things that have helped me reduce weight. This is specific to me and some of the points are contentious. I am far from being fit and have taken only a step forward in the path of getting there.</p>
+
+<div style="width:1100px; margin:0 auto;">
+<img src="https://aritraghosh.github.io/images/Aritra_old.jpg" alt="Old me" style="align: left;width: 400px ;height: 711px;" />
+<img src="https://aritraghosh.github.io/images/Aritra_new.jpg" alt="Now" style="align: right;width: 400px;  height: 711px;" />
+</div>
+
+<p>As you can see, the change is <strong>not</strong> so drastic. Although the weight loss has been significant considerable(around 19 kg in period of 6 months), the change in physique has been less obvious.</p>
+
+<h2 id="what-worked-for-me">What worked for me</h2>
+
+<hr />
+
+<ul>
+  <li>Drink <em>lukewarm</em> lemon water with tea-spoon of honey in the early morning.</li>
+  <li>Drink hot/lukewarm water through the day and try to drink atleast 4-5 liters of water through the day.</li>
+  <li>Avoid <em>sugary</em> food(of any kind including health drinks etc) and switch to having more vegetables and fruits which have lot of fibre. Eat more protein.</li>
+  <li><em>Exercise</em> everyday for atleast 1/2-1 hour(Gym,Running, Swimming are great options)</li>
+  <li>Take small portions at regular intervals rather than fasting.</li>
+  <li>Avoid eating outside as much as possible especially oily food.</li>
+</ul>
+
+<h4 id="small-things-that-also-help">Small things that also help</h4>
+<ul>
+  <li>Use the staircase rather than the elevator wherever possible.</li>
+  <li>Do not eat anything other than at meal times.</li>
+  <li>Take to eating  fruit instead of fruit juices.</li>
+  <li>Maintain a record of weight to have an idea of progress. Do not get swayed or bogged down by this but maintaining a record helps. Set achievable goals and ensure that you are able to fulfil them.</li>
+  <li>Avoid eating a  heavy meal at night.</li>
+</ul>
+
+<p>Last but not the least, dont get too obsessed if you are not able to reduce weight fast. It takes time. I will keep adding more as and when I find something useful and helpful.</p>
+
+
+</div>
+
+        </div><!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:aritrag94@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/aritraghoshpm">linkedin</a></li>
+                <li><a href="https://github.com/aritraghosh">github</a></li>
+                <li><a href="https://medium.com/@aritrag94">medium</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

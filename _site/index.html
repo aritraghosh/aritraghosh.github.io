@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <title>Aritra Ghosh, Computer Science Student</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-        <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <script>
             // Check for saved user preference, if any, on load of the website
             window.onload = function() {
@@ -26,29 +26,40 @@
             }
         </script>
         <!-- Google Analytics tag if you have it -->
-        {% if site.google_analytics %}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '{{ site.google_analytics }}');
+            gtag('config', 'G-L001SGM272');
         </script>
-        {% endif %}
+        
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
                 <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
             </ul>
         </nav>
         <div class="container">
-        {{ content }}
+        <div class="blurb">
+    <h1>Hi there, I'm Aritra Ghosh!</h1>
+    <div>
+        <img src="../images/Aritra-Tennis.jpg" alt="Me at US Open circa 2021" style="align: left;width: 200px ;height: 400px;"/> 
+    </div>    
+
+    <p>I'm a Senior Product Manager in the Azure Kubernetes Service(AKS) team Microsoft. I previously worked at Sezzle and Oracle. 
+        I excel in fast-paced environments, adept at navigating uncertainty and understanding customer needs to drive product and business success. 
+        I'm known for getting things done efficiently and effectively, with a strong track record of delivering impact at scale.
+    My hobbies include working out at the gym and playing squash </ p>
+Interests: B2B SaaS, Developer tools, Enterprise Software.
+</div><!-- /.blurb -->
         </div><!-- /.container -->
         <footer>
             <ul>

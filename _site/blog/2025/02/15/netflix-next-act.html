@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Netflix's Next Act</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <script>
+            // Check for saved user preference, if any, on load of the website
+            window.onload = function() {
+                const darkMode = localStorage.getItem('darkMode');
+                if (darkMode === 'enabled') {
+                    document.documentElement.classList.add('dark-mode');
+                }
+            }
+
+            function toggleTheme() {
+                const root = document.documentElement;
+                root.classList.toggle('dark-mode');
+                
+                // Save user preference
+                if (root.classList.contains('dark-mode')) {
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    localStorage.setItem('darkMode', 'disabled');
+                }
+            }
+        </script>
+        <!-- Google Analytics tag if you have it -->
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L001SGM272');
+        </script>
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+                <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
+            </ul>
+        </nav>
+        <div class="container">
+        <h1>Netflix's Next Act</h1>
+<p class="meta">15 Feb 2025</p>
+
+<div class="post">
+  <p>I’ve always found Netflix fascinating as a company. From their radical <a href="https://jobs.netflix.com/work-life-philosophy">compensation strategy</a> and infamous <a href="https://jobs.netflix.com/culture">Keeper test</a> to their stellar <a href="https://netflixtechblog.com/">engineering culture</a>, there’s a lot that intrigues me. These are my unstructured thoughts on what’s next for them.</p>
+
+<h2 id="exploring-new-revenue-streams">Exploring New Revenue Streams</h2>
+<p>Look, there are plenty of good reasons why I, as a customer, don’t want to pay more for content (don’t get me started on subscription fatigue and the explosion of subscription management startups). But from a business perspective, artificially capping revenue feels unusual.</p>
+
+<p>Let’s do some back-of-the-napkin math on their Serviceable Addressable Market:</p>
+<ul>
+  <li>Global Population Base (2024): ~8B people</li>
+  <li>Potential household accounts: ~2 billion households (Average global household size: ~3.5 people)</li>
+  <li>Internet penetration: ~65% of global population</li>
+  <li>Income levels sufficient for streaming services: ~40% of internet users</li>
+  <li>Potential for regional pricing: Average global ARPU of ~$12/month</li>
+  <li>Maximum potential annual revenue: 2 billion × 65% (internet) × 40% (income capability) = ~520 million households × $12 × 12 months = $75 billion per year</li>
+</ul>
+
+<p>For context, Netflix pulled in $33B ($32B from subscriptions) in 2023 - less than half their potential TAM. While hitting $75B isn’t trivial (few companies reach that scale), it’s an interesting framework for thinking about growth. Their recent ad-supported tier feels like a compromise that dilutes the core value prop for some users (remember <a href="https://mobiledevmemo.com/everything-is-an-ad-network/">Everything is an ad network</a>). I think Netflix needs to look beyond traditional revenue streams. Gaming and podcasts seem like natural extensions, and I wouldn’t be surprised to see them roll out an add-on pricing model eventually.</p>
+
+<h2 id="enhancing-social-features">Enhancing Social Features</h2>
+<p>We all know about the famous Netflix recommendation challenge and the algorithm they built. But here’s the thing - while it’s great at suggesting shows based on viewing patterns, many of us still watch things because our actual friends recommended them. We’re already discussing shows on Facebook and Reddit, so why not bring that social layer into Netflix itself?</p>
+
+<p>I’m honestly surprised we don’t have a TikTok-style feed showcasing clips that link to full shows. Imagine being able to comment on specific scenes and see what your friends thought at that exact moment. Nothing groundbreaking about the concept, but it could dramatically boost engagement.</p>
+
+<h2 id="product-placement-or-branded-content-opportunities">Product placement or branded content opportunities</h2>
+<p>This is probably already on their roadmap, but there’s huge potential in thoughtful product integration that doesn’t feel forced. Think contextual placement where products naturally fit character profiles and settings - the phone a tech-savvy character would actually use, or the car that makes sense for their lifestyle. They could even add subtle “Shop the Look” features at episode ends or during natural pause breaks.</p>
+
+<p>Strategic brand partnerships could spawn interesting content too - high-end cooking shows featuring premium kitchen brands, or travel series that authentically showcase destinations. Done right, this could boost engagement even more than direct revenue. The key is keeping it organic and non-intrusive.</p>
+
+<h2 id="whats-next">What’s next?</h2>
+<p>Netflix has always been a company that zagged when others zigged. While competitors rushed to build media empires through mergers and acquisitions, Netflix doubled down on original content. When others chased sports rights, Netflix built Squid Game. The streaming wars aren’t over - they’re evolving. And in this next phase, I’m betting on Netflix finding creative ways to expand beyond just being a video service into something more engaging, more social, and maybe even more profitable. But hey, what do I know? I’m just another person yelling into the void about what a $450B company should do.</p>
+
+</div>
+
+        </div><!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:aritrag94@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/aritraghoshpm">linkedin</a></li>
+                <li><a href="https://github.com/aritraghosh">github</a></li>
+                <li><a href="https://medium.com/@aritrag94">medium</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

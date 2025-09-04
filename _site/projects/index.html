@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <title>Aritra Ghosh's Projects</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-        <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <script>
             // Check for saved user preference, if any, on load of the website
             window.onload = function() {
@@ -26,30 +26,55 @@
             }
         </script>
         <!-- Google Analytics tag if you have it -->
-        {% if site.google_analytics %}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L001SGM272"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '{{ site.google_analytics }}');
+            gtag('config', 'G-L001SGM272');
         </script>
-        {% endif %}
+        
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/contact">Contact Me</a></li>
                 <li><button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle dark mode">🌓</button></li>
             </ul>
         </nav>
         <div class="container">
-        {{ content }}
+        <div class="projects">
+    <h1>Personal Projects</h1>
+    <p>A collection of personal projects that I built in my free time (mostly for me :D)</p>
+    
+    <div class="project">
+        <h2>Project Name 1</h2>
+        <p class="project-tech">Redactly</p>
+        <p class="project-description">Automatically remove personal information from your emails before sharing on social media</p>
+        <div class="project-links">
+            <a href="https://redactemail.vercel.app/" target="_blank">Live Demo</a>
+            <a href="https://github.com/aritraghosh/redactly/" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h2>Perks Plus Ch</h2>
+        <p class="project-tech">Perks Plus Eligibility Checker</p>
+        <p class="project-description">This saved me a bunch of time to check if an item is eliible to be reimbursed in the Microsoft Perks plus program</p>
+        <div class="project-links">
+            <a href="https://perks-plus-checker.vercel.app/" target="">Live Demo</a> 
+        </div>
+    </div>
+
+   
+</div>
+
         </div><!-- /.container -->
         <footer>
             <ul>

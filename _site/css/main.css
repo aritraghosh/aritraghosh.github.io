@@ -327,3 +327,60 @@ blockquote {
     color: var(--link-hover-color);
     text-decoration: underline;
 }
+
+/* Projects page styles */
+.projects {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project h2 {
+    color: var(--text-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.project-tech {
+    color: var(--link-color);
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    font-size: 1.1em;
+}
+
+.project-links a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.project-links a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}

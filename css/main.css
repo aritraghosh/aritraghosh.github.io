@@ -189,6 +189,61 @@ ul.posts li {
     margin-bottom: 0.3rem;
 }
 
+/* Talks & Writing styles - semantic classes with same styling as work experience */
+.content-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 20px;
+}
+
+.content-section h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.content-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.content-item:last-child {
+    border-bottom: none;
+}
+
+.content-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    color: var(--text-color);
+}
+
+.content-venue {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.content-date {
+    font-size: 1rem;
+    color: var(--link-color);
+    margin: 0.5rem 0;
+}
+
+.content-description {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
 /* Table styles */
 table {
     width: 100%;
